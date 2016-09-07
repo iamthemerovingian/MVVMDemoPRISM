@@ -9,6 +9,7 @@ namespace PrismDemo.ViewModels
     public class ViewAViewModel : BindableBase
     {
         private readonly IEventAggregator _eventAggregator;
+
         private string _firstName = null;
         public string FirstName
         {
