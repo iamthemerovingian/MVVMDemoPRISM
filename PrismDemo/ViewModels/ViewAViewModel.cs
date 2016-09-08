@@ -10,14 +10,14 @@ namespace PrismDemo.ViewModels
     {
         private readonly IEventAggregator _eventAggregator;
 
-        private string _firstName = null;
+        private string _firstName = "Milinda";
         public string FirstName
         {
             get { return _firstName; }
             set { SetProperty(ref _firstName, value); }
         }
 
-        private string _lastName = null;
+        private string _lastName = "Seneviratne";
         public string LastName
         {
             get { return _lastName; }
